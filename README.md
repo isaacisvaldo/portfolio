@@ -33,14 +33,13 @@ This application requires Node.js v18.13+.
 
 ```bash
 npm install -g @angular/cli
-git clone https://github.com/marckevinflores/kevinflor.es.git
+git clone https://github.com/isaacisvaldo/portfolio
 cd portfolio
 npm install
 ```
 
-Before starting the application, you need to rename the files inside the `src/environments` directory. Remove the `.bak` file extension from `environment.ts.bak` and `environment.development.ts.bak`. Then run:
 ```bash
- npm start
+ ng s
 ```
 
 Wait to compile and go to http://localhost:4200 after compile finish
