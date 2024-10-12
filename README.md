@@ -1,11 +1,7 @@
 # [kevinflor.es](https://kevinflor.es)
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./preview.png">
-  <img alt="Website preview" src="./preview.png">
-</picture>
+
 
 ## Stack
 - **Framework**: [Angular](https://angular.dev/)
