@@ -63,4 +63,33 @@ export class LanguageToolService {
   ];
 
   }
+  getAllInWork(): any {
+    return [
+      { "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
+      { "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
+      { "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript" },
+      { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+      { "name": "JQuery", "url": "https://jquery.com/" },
+      { "name": "SASS", "url": "https://sass-lang.com/" },
+      { "name": "PHP", "url": "https://www.php.net/" },
+      { "name": "Node JS", "url": "https://nodejs.org/en/about" },
+      { "name": ".NET Core", "url": "https://en.wikipedia.org/wiki/ASP.NET_Core" },
+      { "name": "Laravel", "url": "https://laravel.com/" },
+      { "name": "Angular", "url": "https://angular.dev/" },
+  
+      { "name": "Bootstrap", "url": "https://getbootstrap.com/" },
+      { "name": "Tailwind CSS", "url": "https://tailwindcss.com/" },
+      { "name": "Express JS", "url": "https://expressjs.com/" },
+      { "name": "Socket.io", "url": "https://socket.io/" },
+      { "name": "Git", "url": "https://git-scm.com/" },
+      { "name": "MySQL", "url": "https://www.mysql.com/" },
+      { "name": "SQLite", "url": "https://www.sqlite.org/index.html" },
+      { "name": "MongoDB", "url": "https://www.mongodb.com/" },
+   
+      { "name": "Figma", "url": "https://www.figma.com/" },
+      { "name": "Jest", "url": "https://jestjs.io/" },
+     
+    ];
+  
+    }
 }

@@ -13,10 +13,7 @@ export const routes: Routes = [
     path: 'project',
     loadChildren: () => import('@pages/project/project.routes').then(m => m.ProjectRoutes)
   },
-  {
-    path: 'blog',
-    loadChildren: () => import('@pages/blog/blog.routes').then(m => m.BlogRoutes)
-  },
+ 
  
   {
     path: '**', pathMatch: 'full',
