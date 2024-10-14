@@ -4,6 +4,7 @@
   "files": ["./server.ts"],
   "compilerOptions": {
     "baseUrl": "./",
+    
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -37,6 +38,7 @@
       "@pages/*": ["src/app/pages/*"],
       "@shared/*": ["src/app/shared/*"],
       "@env/*": ["src/environments/*"],
+      
     },
     "skipLibCheck": true
   },
