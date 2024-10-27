@@ -26,6 +26,7 @@ import { Loader } from '@shared/components/loader/loader';
           <h1 class="text-xl font-semibold dark:text-white">I'm <span class="text-primary-600 dark:text-primary-400 ">{{profile().name}}</span></h1>
           <span class="dark:text-gray-200">{{profile().bio}}</span>
           <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            
             <btn [link]="profile().resumeLink" ariaLabel="resume" class="flex gap-1">
               <icon [size]="20" iconClass="fill-white"
               [path]="fileIcon"
