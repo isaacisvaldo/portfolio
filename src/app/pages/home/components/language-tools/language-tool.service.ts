@@ -29,20 +29,11 @@ export class LanguageToolService {
     { "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
     { "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript" },
     { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
-    { "name": "C-sharp", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" },
-    { "name": "JQuery", "url": "https://jquery.com/" },
-    { "name": "SASS", "url": "https://sass-lang.com/" },
     { "name": "PHP", "url": "https://www.php.net/" },
     { "name": "Node JS", "url": "https://nodejs.org/en/about" },
-    { "name": ".NET Core", "url": "https://en.wikipedia.org/wiki/ASP.NET_Core" },
     { "name": "Laravel", "url": "https://laravel.com/" },
     { "name": "Angular", "url": "https://angular.dev/" },
     { "name": "React", "url": "https://react.dev/" },
-    { "name": "Vue", "url": "https://vuejs.org/" },
-    { "name": "Ionic", "url": "https://ionic.io/" },
-    { "name": "React Native", "url": "https://reactnative.dev/" },
-    { "name": "Next JS", "url": "https://nextjs.org/" },
-    { "name": "Nuxt JS", "url": "https://nuxt.com/" },
     { "name": "Bootstrap", "url": "https://getbootstrap.com/" },
     { "name": "Tailwind CSS", "url": "https://tailwindcss.com/" },
     { "name": "Express JS", "url": "https://expressjs.com/" },
@@ -51,15 +42,9 @@ export class LanguageToolService {
     { "name": "MySQL", "url": "https://www.mysql.com/" },
     { "name": "SQLite", "url": "https://www.sqlite.org/index.html" },
     { "name": "MongoDB", "url": "https://www.mongodb.com/" },
-    { "name": "Redux", "url": "https://redux.js.org/" },
-    { "name": "Capacitor", "url": "https://capacitorjs.com/" },
-    { "name": "Android Studio", "url": "https://developer.android.com/" },
-    { "name": "Xcode", "url": "https://developer.apple.com/xcode/" },
-    { "name": "Chakra UI", "url": "https://chakra-ui.com/" },
     { "name": "Firebase", "url": "https://firebase.google.com/" },
-    { "name": "Figma", "url": "https://www.figma.com/" },
     { "name": "Jest", "url": "https://jestjs.io/" },
-    { "name": "Strapi", "url": "https://strapi.io/" },
+   
   ];
 
   }
@@ -69,11 +54,14 @@ export class LanguageToolService {
       { "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
       { "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript" },
       { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
-      { "name": "JQuery", "url": "https://jquery.com/" },
-      { "name": "SASS", "url": "https://sass-lang.com/" },
+      
+      { "name": "GitLab", "url": "https://images.ctfassets.net/xz1dnu24egyd/3FbNmZRES38q2Sk2EcoT7a/a290dc207a67cf779fc7c2456b177e9f/press-kit-icon.svg" },
+      { "name": "MySQL", "url": "https://www.mysql.com/" },
+      { "name": "SQLite", "url": "https://www.sqlite.org/index.html" },
+      { "name": "MongoDB", "url": "https://www.mongodb.com/" },
       { "name": "PHP", "url": "https://www.php.net/" },
       { "name": "Node JS", "url": "https://nodejs.org/en/about" },
-      { "name": ".NET Core", "url": "https://en.wikipedia.org/wiki/ASP.NET_Core" },
+
       { "name": "Laravel", "url": "https://laravel.com/" },
       { "name": "Angular", "url": "https://angular.dev/" },
   
@@ -86,7 +74,7 @@ export class LanguageToolService {
       { "name": "SQLite", "url": "https://www.sqlite.org/index.html" },
       { "name": "MongoDB", "url": "https://www.mongodb.com/" },
    
-      { "name": "Figma", "url": "https://www.figma.com/" },
+   
       { "name": "Jest", "url": "https://jestjs.io/" },
      
     ];

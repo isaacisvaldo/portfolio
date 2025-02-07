@@ -21,6 +21,7 @@ throw new Error('Method not implemented.');
   metaService = inject(MetaService)
   traktTvService = inject(TraktTvService)
 fileIcon: any;
+URL: string= "http://localhost:4200"
   constructor(){
     this.metaService.setMetaTags(
       `About - ${profileData.name}`,

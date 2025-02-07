@@ -29,7 +29,7 @@ export class ProjectService {
           id: 1,
           attributes: {
             title: "Portfolio Website",
-            description: "My personal portfolio website built with HTML, CSS, and JavaScript.",
+            description: "My personal portfolio website built with Angular.",
             featured: true,
             tools: {
               data: [
@@ -40,9 +40,9 @@ export class ProjectService {
             },
             images: { data: null },
             links: {
-              website: "https://myportfolio.com",
+              website: "#",
               playstore: null,
-              github: "https://github.com/myusername/portfolio",
+              github: "#",
               appstore: null
             },
             picture: {
@@ -50,7 +50,7 @@ export class ProjectService {
                 attributes: {
                   formats: {
                     thumbnail: {
-                      url: "https://example.com/portfolio_thumbnail.png"
+                       url: "https://img.freepik.com/free-vector/website-designer-illustration-concept_1150-39366.jpg?t=st=1738931085~exp=1738934685~hmac=537702f5eeddb4c16dd012e4460bdf5d90db5eac9b2b0ac5df092de1cf4f01e6&w=826"
                     }
                   }
                 }
@@ -62,7 +62,7 @@ export class ProjectService {
           id: 2,
           attributes: {
             title: "Dating Website App",
-            description: "Dating website written in .NET Core and Angular",
+            description: "Dating website written in Adonis and Angular",
             featured: null,
             tools: {
               data: [
@@ -130,11 +130,11 @@ export class ProjectService {
           id: 4,
           attributes: {
             title: "Task Management Tool",
-            description: "Task management tool using Vue.js and Firebase",
+            description: "Task management tool using Angular",
             featured: null,
             tools: {
               data: [
-                { id: 16, attributes: { name: "Vue.js" } },
+                { id: 16, attributes: { name: "Angular" } },
                 { id: 23, attributes: { name: "Firebase" } },
                 { id: 27, attributes: { name: "Tailwind CSS" } }
               ]
@@ -163,11 +163,11 @@ export class ProjectService {
           id: 5,
           attributes: {
             title: "Weather App",
-            description: "A weather forecasting application built with React Native.",
+            description: "A weather forecasting application built with React .",
             featured: null,
             tools: {
               data: [
-                { id: 14, attributes: { name: "React Native" } },
+                { id: 14, attributes: { name: "React " } },
                 { id: 17, attributes: { name: "Axios" } },
                 { id: 18, attributes: { name: "OpenWeatherMap API" } }
               ]

@@ -20,8 +20,8 @@ const expertiseAreaData: ExpertiseAreaSchema[] = [
   },
   {
     icon: monitor,
-    percent: '20%',
-    name: 'UX/UI Design'
+    percent: '92%',
+    name: 'Data Enginner'
   },
   {
     icon: speed,
@@ -30,7 +30,7 @@ const expertiseAreaData: ExpertiseAreaSchema[] = [
   },
   {
     icon: search,
-    percent: '20%',
+    percent: '68%',
     name: 'Unit Testing'
   },
 ]
